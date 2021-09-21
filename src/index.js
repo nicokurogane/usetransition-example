@@ -4,14 +4,26 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+/* //TODO - UPDATE RENDER() METHOD TO CREATEROOT() METHOD
+    THE FOLLOWING WILL BE THE DEPRECATED WAY 
+    ---- YOU CAN'T TRY REACT 18 FEATURES IF YOU KEEP THE ReactDom.render() way----
+
+    ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+*/
+
+//** THE NEW WAY: 
+const container = document.getElementById('root');
+// Create a root.
+const root = ReactDOM.createRoot(container);
+// Render the top component to the root.
+root.render(<App />);
+
+
+
 reportWebVitals();
