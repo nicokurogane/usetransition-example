@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.1.2",
+    "faker": "^5.5.3",
     "react": "^18.0.0-alpha-3ee7a004e-20210920",
     "react-dom": "^18.0.0-alpha-3ee7a004e-20210920",
     "react-scripts": "4.0.3"
