@@ -11,3 +11,8 @@ input {
 .highlight {
   background-color: yellowgreen;
 }
+
+.rendering-data{
+  opacity: 0.5;
+  background-color: gray;
+}
